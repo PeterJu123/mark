@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://peterju123.github.io/markdown/",
+  "homepage": "https://peterju123.github.io/mark/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
