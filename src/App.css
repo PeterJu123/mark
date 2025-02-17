@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+#container1{
+  display: flex;
+  justify-content: center;
+  padding-top:1em;
+}
+
+#editor-container{
+  border:1px solid black;
+  width:50%;
+}
+
+#title-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+#editor{
+  width:100%;
+  margin-top:.5em;
+  height:30vh;
+  border:none;
+}
+
+#container2{
+  display: flex;
+  justify-content: center;
+  padding-top:1em;
+  
+}
+
+#preview-container{
+  border:1px solid black;
+  width:70%;
+}
+
+#preview{
+  width:100%;
+  padding:1em;
+}
+
+h1{
+  border-bottom: 2px solid black;
+  font-size: 2.2em !important;
+  margin-top:.3em !important;
+}
+
+h2{
+  border-bottom: 1px solid black;
+  margin-top:.6em !important;
+}
+
+h3{
+  font-size: 1.4em !important;
+  margin-top:.6em !important;
+  margin-bottom: 1em !important;
+}
+
+
+#preview code{
+  color:red;
+  background-color: #1e293b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+
+}
+
+#preview pre code{
+  background-color: #1e293b;
+  color: red;
+}
+
+/* Override the styles for function names */
+.hljs-function {
+  color: blue;  /* Change to your preferred color */
+  font-weight: bold;
+}
+
+/* Override other specific parts of code if needed */
+.hljs-keyword {
+  color: blue;  /* Set a custom color for keywords like 'function' */
+}
+
+table{
+  border:1px solid;
+  margin-bottom: 1em;
+  
+}
+
+th{
+  border:2px solid !important;
+  padding:0.5em;
+}
+
+td{
+  border:1px solid !important;
+  padding:0.5em;
+}
+
+blockquote::before{
+  content:"|";
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left:1em;
+}
+
+blockquote{
+  display: flex;
+  
+  align-items: center;
+  
+}
+
+blockquote p{
+  
+  margin-top:1.2em;
+  margin-left: 1em;
+
+}
+
+img{
+  margin-top:1em;
+  max-width: 100%;
+  height:auto;
+}
